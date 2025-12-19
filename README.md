@@ -29,7 +29,7 @@ This project explores text classification techniques to distinguish between hoax
 ✔ Indonesian news classification based on scraped & collected news datasets  
 ✔ Exploratory data analysis for hoax and valid news  
 ✔ Multiple model experiments for text classification  
-✔ Support for transformer-based language models (e.g., IndoBERT) and traditional ML pipelines
+✔ Support for transformer-based language models (e.g., IndoBERT)
 
 ## 📊 Models & Techniques
 
@@ -37,7 +37,6 @@ This project uses a combination of methods including:
 
 - **Data scraping & preprocessing** (cleaning, tokenization, labeling)
 - **Feature extraction** (text processing for natural language)
-- **Machine learning experiments** (e.g., WRS, TF-IDF + classifiers)
 - **Transformer-based language models** (IndoBERT variations for improved text representation)
 
 > Note: Model design and performance may vary depending on preprocessing and dataset balance.
