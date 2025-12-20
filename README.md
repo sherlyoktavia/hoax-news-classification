@@ -14,13 +14,13 @@ This project explores text classification techniques to distinguish between hoax
 
 | File / Folder | Description |
 |---------------|-------------|
-| `tribunnews_politik_full.csv` | Raw news dataset (Indonesian news articles). |
-| `turnbackhoax.xlsx`, `kompas.xlsx`, `tempo.xlsx`, `cnn.xlsx` | Source news data from multiple outlets. |
-| `WRS_model_eval.ipynb` | Jupyter notebook evaluating Weighted Random Subspace (WRS) or similar models. |
-| `cut_model_eval.ipynb` | Notebook for evaluation of classification models with cut/filtered dataset. |
-| `hoaxvalid_cut.ipynb` | Preprocessing and validation analysis for hoax vs valid news. |
-| `hoaxvalid_wrs.ipynb` | WRS-based classification on hoax and valid labels. |
-| `scrap_tribun.ipynb` | Web scraping notebook for collecting news data. |
+| `tribunnews_politik_full.csv` | Raw news dataset (Indonesian news articles) to evaluate model. |
+| `turnbackhoax.xlsx`, `kompas.xlsx`, `tempo.xlsx`, `cnn.xlsx` | Source news data from multiple news platform to train model. |
+| `WRS_model_eval.ipynb` | Jupyter notebook evaluating Weighted Random Sampling (WRS) pre-trained model. |
+| `cut_model_eval.ipynb` | Jupyter notebook evaluating cut dataset pre-trained model. |
+| `hoaxvalid_cut.ipynb` | Build model with cut dataset. |
+| `hoaxvalid_wrs.ipynb` | Build model with Weighted Random Sampling (WRS) dataset. |
+| `scrap_tribun.ipynb` | notebook for scrapping to collecting news data. |
 | `.gitattributes` | Git attributes configuration. |
 
 ## 🚀 Key Features
