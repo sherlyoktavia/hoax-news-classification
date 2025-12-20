@@ -15,13 +15,12 @@ This project explores text classification techniques to distinguish between hoax
 | File / Folder | Description |
 |---------------|-------------|
 | `tribunnews_politik_full.csv` | Raw news dataset (Indonesian news articles). |
-| `turnbackhoax.xlsx`, `kompas.xlsx`, `tempo.xlsx` | Source news data from multiple outlets. |
+| `turnbackhoax.xlsx`, `kompas.xlsx`, `tempo.xlsx`, `cnn.xlsx` | Source news data from multiple outlets. |
 | `WRS_model_eval.ipynb` | Jupyter notebook evaluating Weighted Random Subspace (WRS) or similar models. |
 | `cut_model_eval.ipynb` | Notebook for evaluation of classification models with cut/filtered dataset. |
 | `hoaxvalid_cut.ipynb` | Preprocessing and validation analysis for hoax vs valid news. |
 | `hoaxvalid_wrs.ipynb` | WRS-based classification on hoax and valid labels. |
 | `scrap_tribun.ipynb` | Web scraping notebook for collecting news data. |
-| `cnn.xlsx` | Possibly cleaned or transformed data for CNN modeling. |
 | `.gitattributes` | Git attributes configuration. |
 
 ## 🚀 Key Features
